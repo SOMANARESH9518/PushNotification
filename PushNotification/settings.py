@@ -76,7 +76,11 @@ WSGI_APPLICATION = 'PushNotification.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'd3sutl3d3bjkh0',
+        'USER': 'utjsqzpqmfsqty',
+        'PASSWORD': 'B31L2q9-XwMe8QmXEZMZSUTmvD',
+        'HOST': 'ec2-174-129-212-133.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
