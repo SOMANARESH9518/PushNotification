@@ -73,4 +73,4 @@ def send_notification(request):
     data = {"registration_ids": registration_ids,
             'message': 'Welcome to the World of Coding for GCM Notification'}
     requests.post(url, data=json.dumps(data), headers=headers)
-    return render(request, 'notification.html')
+    return render(request, '/getGCMIds/notification.html')
